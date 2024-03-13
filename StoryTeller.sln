@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33403.182
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StoryTeller", "StoryTeller\StoryTeller.csproj", "{CAFF484E-5FE1-48F6-8A94-59828775F61C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{BAB9EC3A-67C0-4D50-A25F-EFE4880131D8} = {BAB9EC3A-67C0-4D50-A25F-EFE4880131D8}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StoryTeller.DataAccess", "StoryTeller.DataAccess\StoryTeller.DataAccess.csproj", "{BAB9EC3A-67C0-4D50-A25F-EFE4880131D8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CAFF484E-5FE1-48F6-8A94-59828775F61C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAFF484E-5FE1-48F6-8A94-59828775F61C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAFF484E-5FE1-48F6-8A94-59828775F61C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAFF484E-5FE1-48F6-8A94-59828775F61C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAB9EC3A-67C0-4D50-A25F-EFE4880131D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAB9EC3A-67C0-4D50-A25F-EFE4880131D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAB9EC3A-67C0-4D50-A25F-EFE4880131D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAB9EC3A-67C0-4D50-A25F-EFE4880131D8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DB218499-8626-4F57-AFEB-C8EA187AF668}
+	EndGlobalSection
+EndGlobal
